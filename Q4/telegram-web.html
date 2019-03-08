@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html>
+<!-- Head -->
+    <head>
+        <title>Telegram Web</title>
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <link href="css/materialize-rtl.min.css" rel="stylesheet" />
+        <script src="js/materialize.min.js"></script>
+        <link href="css/style.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+<!-- Body -->
+    <body>        
+    <!--Navbar-->
+        <div class="container1">
+            <div class="row">
+                <div class="col s12 m12">
+                        <nav>
+                            <div class="nav-wrapper">
+                            <a href="#!" class="brand-logo" style="left: 100px !important;">Telegram</a>
+                            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
+                            <ul class="right hide-on-med-and-down">
+                            </ul>
+                            <!-- Modal Trigger -->
+                                <a class="waves-effect waves-light btn modal-trigger" href="#modal1" style="bottom: 5px !important; left:10px !important; background: rgb(86, 132, 166); font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">Setting</a>
+                            <!-- Modal Structure -->
+                                <div id="modal1" class="modal" style="background: rgb(27, 43, 40);">
+                                    <div class="modal-content">
+                                    <h3>Account</h3>
+                                    <p>Tap to change phone number:</p>
+                                    <p>Username:</p>
+                                    <p>Password:</p>
+                                    <p>Bio:</p>
+                                    <hr/>
+                                    <h3>Setting</h3>
+                                    <p>Notifications and Sounds</p>
+                                    <p>Privacy</p>
+                                    <p>Data and Storage</p>
+                                    <p>Chat Settings</p>
+                                    <p>Language</p>
+                                    <p>Help</p>
+                                    </div>
+                                    <div class="modal-footer" style="background: rgb(27, 43, 40);">
+                                    <a href="#!" class="modal-close waves-effect waves-green btn-flat" style="border: solid white;color: white;">Save</a>
+                                    </div>
+                                </div>
+
+                            </div>  
+                        </nav>
+                        
+                        <ul class="sidenav" id="mobile-demo">
+                            <li><a>Add Account</a></li>
+                            <li><a>New Group</a></li>
+                            <li><a>New Secret Chat</a></li>
+                            <li><a>New Channel</a></li>
+                            <li><a>Contacs</a></li>
+                            <li><a>Saved Messages</a></li>
+                            <li><a>Calls</a></li>
+                            <li><a>Invite Friends</a></li>
+                            <li><a>Settings</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--Search-->
+    <div class="container2">
+            <div class="row">
+                <div class="col s4 m3">
+        <nav>
+            <div class="nav-wrapper">
+              <form>
+                <div class="input-field">
+                  <input id="search" type="search" required>
+                  <label class="label-icon" for="search"><i class="fas fa-search"></i></label>
+                  <i class="material-icons">close</i>
+                </div>
+              </form>
+            </div>
+        </nav>
+            </div>
+        </div>
+    </div>
+    <!--Collapsible-->
+    <div class="container3">
+            <div class="row">
+                <div class="col s4 m3">
+        <ul class="collapsible" style="margin-top: 0px; margin-bottom: 0px !important;">
+            <li>
+                <div class="collapsible-header" style="font-size: 20px;"><i class="material-icons">expand_more</i>Recent</div>
+                <div class="collapsible-body"><span>
+       
+                        <ul class="collection">
+                                <li class="collection-item avatar">
+                                  <img src="albert.jpg" alt="" class="circle">
+                                  <span class="title">Albert Einstein</span>
+                                  <p>Hey! What's up?</p>
+                                  <a href="#!" class="secondary-content"><i class="material-icons small">chevron_right</i></a>
+                                </li>
+                                <li class="collection-item avatar">
+                                    <img src="charlie.jpg" alt="" class="circle">
+                                  <span class="title">Charlie Chaplin</span>
+                                  <p>I've made pretty good movies!</p>
+                                  <a href="#!" class="secondary-content"><i class="material-icons small">chevron_right</i></a>
+                                </li>
+                                <li class="collection-item avatar">
+                                    <img src="robert.jpg" alt="" class="circle">
+                                  <span class="title">Robert De Niro</span>
+                                  <p>typing...</p>
+                                  <a href="#!" class="secondary-content"><i class="material-icons small">chevron_right</i></a>
+                                </li>
+                                <li class="collection-item avatar">
+                                    <img src="messi.jpg" alt="" class="circle">
+                                  <span class="title">Lionel Messi</span>
+                                  <p>Levantarse a alguien ;)</p>
+                                  <a href="#!" class="secondary-content"><i class="material-icons small">chevron_right</i></a>
+                                </li>
+                                <li class="collection-item avatar">
+                                        <img src="milad.jpg" alt="" class="circle">
+                                      <span class="title">Milad Barazandeh</span>
+                                      <p>!مخلصم</p>
+                                      <a href="#!" class="secondary-content"><i class="material-icons small">chevron_right</i></a>
+                                </li>
+                              </ul>
+                            
+                  </span></div>  
+            </li>
+        </ul>
+            </div>
+        </div>
+    </div>
+    <!--All Contacts-->
+    <div class="container5">
+            <div class="row">
+                <div class="col s4 m3">
+                    <ul class="collapsible" style="margin-top: 0px; margin-bottom: 0px !important;">
+                        <li>
+                            <div class="collapsible-header" style="font-size: 20px;"><i class="material-icons">expand_more</i>All Contacts</div>
+                            <div class="collapsible-body"><span>
+                   
+                                    <ul class="collection">
+                                            <li class="collection-item avatar">
+                                              <img src="albert.jpg" alt="" class="circle">
+                                              <span class="title">Albert Einstein</span>
+                                              <a href="#!" class="secondary-content"><i class="material-icons small">chevron_right</i></a>
+                                            </li>
+                                            <li class="collection-item avatar">
+                                                <img src="charlie.jpg" alt="" class="circle">
+                                              <span class="title">Charlie Chaplin</span>
+                                              <a href="#!" class="secondary-content"><i class="material-icons small">chevron_right</i></a>
+                                            </li>
+                                            <li class="collection-item avatar">
+                                                <img src="robert.jpg" alt="" class="circle">
+                                              <span class="title">Robert De Niro</span>
+                                              <a href="#!" class="secondary-content"><i class="material-icons small">chevron_right</i></a>
+                                            </li>
+                                            <li class="collection-item avatar">
+                                                <img src="messi.jpg" alt="" class="circle">
+                                              <span class="title">Lionel Messi</span>
+                                              <a href="#!" class="secondary-content"><i class="material-icons small">chevron_right</i></a>
+                                            </li>
+                                            <li class="collection-item avatar">
+                                                    <img src="milad.jpg" alt="" class="circle">
+                                                  <span class="title">Milad Barazandeh</span>
+                                                  <a href="#!" class="secondary-content"><i class="material-icons small">chevron_right</i></a>
+                                            </li>
+                                            <li class="collection-item avatar">
+                                                <img src="dark.jpg" alt="" class="circle">
+                                                <span class="title">Batman</span>
+                                                <a href="#!" class="secondary-content"><i class="material-icons small">chevron_right</i></a>
+                                              </li>
+                                              <li class="collection-item avatar">
+                                                <img src="super.jpg" alt="" class="circle">
+                                                <span class="title">Superman</span>
+                                                <a href="#!" class="secondary-content"><i class="material-icons small">chevron_right</i></a>
+                                              </li>
+                                          </ul>
+                                        
+                              </span></div>  
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <!--Type your Message-->
+    <div class="container" style="margin-left: 0px !important;">  
+            <div class="col s12 m8">
+                <div class="input-field" style="background: rgb(209, 236, 238); border: groove; margin-left: 0px; margin-bottom: 0px; margin-top: 0px; left: 35%;">
+                    <i class="material-icons prefix">mood</i>
+                    <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                    <label for="icon_prefix2">Type your message...</label>
+                </div>
+            </div>
+        </div>
+        </div>
+    <!--End-->
+    <script>
+            $(document).ready(function(){
+            $('.sidenav').sidenav();
+            });
+            
+            $(document).ready(function(){
+            $('.collapsible').collapsible();
+            });
+
+            $(document).ready(function(){
+            $('.modal').modal();
+            });
+        </script>
+    </body>
+</html>

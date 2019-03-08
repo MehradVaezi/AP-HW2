@@ -1,0 +1,36 @@
+body{ direction: ltl; background: rgb(231, 234, 239);}
+.nav-wrapper{
+    background: rgb(86, 132, 166);
+    top: 0px !important;
+}
+.brand-logo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, bold;
+    margin-left: 130px;
+    font-size: 25px !important;
+}
+.sidenav-trigger{
+    margin-left: 10px;
+}
+.searchmargin{
+    top: 0px !important;
+}
+.collapsible-header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, bold;
+}
+.row{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+.collection{
+    margin: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+}
+.collection-item:hover{
+    background: rgb(202, 238, 238);
+    border-right: 5px solid rgb(26, 173, 241);
+}
+.input-field{
+    border: 1px solid black;
+}
